@@ -1,13 +1,12 @@
 <?php
-$data=$_POST;
+$data    = $_POST;
 $headers = apache_request_headers();
 echo "<pre>";
 print_r($data);
 echo "<hr>";
-
 print_r($headers);
 echo "<hr>";
-$getallheaders  = getallheaders();
+$getallheaders = getallheaders();
 print_r($getallheaders);
 echo "<hr>";
 print_r($_SERVER);
@@ -29,4 +28,3 @@ echo "< hr>";
 print_r($_SERVER);
 ======================================================
 </pre>
-
